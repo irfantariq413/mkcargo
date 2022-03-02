@@ -1,0 +1,313 @@
+/*---------------------------------
+Responsive Grid Media Queries - 1280, 1024, 768, 480
+-----------------------------------*/
+/* 1280-1024 	- desktop (default grid) */
+@media all and (min-width: 1024px) and (max-width: 1800px) {}
+
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+	.header .navbar ul li a{
+		font-size: 17px !important;
+		padding: 0 7px !important;
+	}
+}
+
+/* 1024-768 	- tablet landscape */
+@media all and (min-width: 769px) and (max-width: 1024px) {
+
+	.header .navbar, 
+	.header .metanav  {
+		display: none !important;
+	}
+
+	#nav-trigger{
+		display: block !important; 
+		top:135px !important;
+	}
+
+	.mk-delivery-services-row .mk-delivery-tabs{
+		padding: 10px 15px;
+	}
+
+	.mk-delivery-services-row .mk-delivery-tabs p {
+	    font-size: 11px;
+	    line-height: 20px;
+	    margin-bottom: 11px;
+	}
+
+	.mk-delivery-services-row .mk-delivery-tabs .nav-tabs>li{
+		width: 25%;
+	}
+
+	.mk-delivery-services-row .mk-delivery-tabs .nav-tabs{
+		margin-bottom: 20px;
+	}
+
+	.mk-delivery-services-row .mk-delivery-tabs .nav>li>a {
+	    padding: 10px 4px;
+	    font-size: 12px;
+	}
+
+	.mk-gallery {
+	    padding: 6% 0 5% 5%;
+	    height: auto;
+	}
+
+	.mk-fleet-galery-box {
+	    padding-right: 10px;
+	    padding-top: 16px;
+	}
+
+	.mk-clients ul li p {
+	    height: auto;
+	}
+}
+
+/* 768-480 	- tablet  */
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+	.how-does-it-work{
+		height: auto;
+	}
+
+	#nav-trigger{
+		display: block !important;
+		top:115px !important;
+	}
+
+	.header .navbar, 
+	.header .metanav,
+	.mk-delivery-img{
+		display: none !important;
+	}
+
+	.mk-top-header {
+	    max-width: 1200px;
+	    padding: 15px 1em !important;
+	    height: auto !important;
+	}
+
+	.mk-top-header-box span a{
+		font-size: 12px !important;
+	}
+
+	.mk-top-header-box .quote-btn{
+		max-width: 150px !important;
+	}
+	
+	.mk-social a {
+	    margin: 0px 5px !important;
+	}
+
+	.mk-social a i{
+		font-size: 16px !important;
+	}
+
+	.mk-gallery {
+	    padding: 8% 0 3% 3%;
+	    height: auto;
+	}
+
+	.mk-delivery-services-row .mk-delivery-tabs .nav-tabs>li {
+ 	   width: 25%;
+	}
+
+	.mk-true-fact-box-num h3 {
+	    font-size: 30px;
+	}
+
+	.mk-fleet-galery-box {
+	    padding-right: 0px;
+	    padding-top: 0px;
+	}
+
+	.mk-gallery .mk-galery-box h4 {
+	    letter-spacing: 1px;
+	    font-size: 16px;
+	}
+	
+	.mk-gallery .mk-galery-box p {
+	    font-size: 11px;
+	    line-height: 18px;
+	    margin: 16px 0px;
+	}
+
+	.mk-delivery-tabs{
+		display: block !important;
+		width: 100% !important;
+	}
+
+	.mk-delivery-services-row{
+		margin-bottom: 0px;
+	}
+
+	.mk-clients ul li p{
+		height: auto;
+	}
+
+	.mk-hero-banner{
+		height: 580px;
+	}
+}
+
+
+
+@media all and (max-width: 768px){}
+
+/* 480-less 	- phone landscape & smaller */
+@media all and (max-width: 480px) {
+
+	.header .logo a img{
+		max-width: 180px !important;
+	}
+
+	#nav-trigger{
+		display: block !important;
+	}
+
+	.header .navbar, 
+	.header .metanav,
+	.mk-social,
+	.quote-btn,
+	.footer2 {
+		display: none !important;
+	}
+	
+	.grid.flex,
+	.mk-top-header{
+		padding: 15px 10px !important;
+		height: auto !important;
+	}
+
+
+	.mk-hero-banner{
+		padding: 10px !important;
+	}
+
+	.mk-hero-banner .mk-banner-form{
+		max-width: 100%;
+		padding: 15px;
+	}
+
+	.mk-hero-banner .mk-banner-form form .form-control {
+	    height: 35px;
+	    margin-bottom: 10px;
+	}
+
+	.mk-delivery-services h2,
+	.mk-true-facts h2{
+		font-size: 18px;
+		line-height: 26px;
+	}
+
+	.mk-top-header-box span a {
+	    font-size: 10px !important;
+	    font-weight: 400 !important;
+	    letter-spacing: 0px !important;
+	    margin-top: 0px !important;
+	}
+
+	.mk-top-header-box i {
+	    padding-right: 5px !important;    
+	    font-size: 16px !important;
+	    vertical-align: middle !important;
+	}
+
+	.mk-hero-banner .mk-banner-text h1{
+		font-size: 30px;
+	}
+
+	.mk-hero-banner .mk-banner-text,
+	.mk-true-fact-box{
+		text-align: center !important;
+		padding: 5% 0% !important;
+	}
+
+	.mk-delivery-services-row .mk-delivery-tabs,
+	.mk-delivery-services-row .mk-delivery-img,
+	.mk-true-fact-box-num,
+	.mk-true-fact-box-content{
+		display: block;
+		width: 100%;
+		padding: 10px;
+	}
+
+	.mk-delivery-services-row .mk-delivery-tabs .nav-tabs>li>a {
+	    margin-right: 5px;
+	    font-size: 10px;
+	}
+
+	.mk-delivery-services-row .mk-delivery-tabs .nav-tabs>li {
+	    width: 25%;
+	}
+	
+	.mk-gallery {
+	    background: rgb(254,83,1) !important;
+	    padding: 2% 0 2% 2%;
+	    height: auto;
+	}
+
+	.mk-galery-box{
+		margin: 15px 0px;
+	}
+
+	.mk-fleet-galery-box {
+	    padding: 0px;
+	    text-align: center;
+	}
+
+	.mk-request-quote-form {
+	    padding: 20px;
+	    max-width: 100%;
+	    float: none;
+	}
+
+	.mk-true-fact-box-num h3,
+	.mk-get-a-quote{
+		text-align: center;
+	}
+
+	.mk-true-facts span {
+	    width: 16%;
+	    margin: 20px auto 10px;
+	}
+
+	.mk-true-fact-box {
+	   margin-bottom: 0px;
+	}
+
+	.mk-clients ul li p{
+		height: auto;
+	}
+
+	.mk-news {
+	    padding-left: 10px;
+	}
+
+	.mk-get-a-quote a{
+		float: none;
+	}
+
+	footer{
+		text-align: center;
+		padding-top: 35px;
+	}
+
+	.mk-delivery-services-cards, .mk-looking-for-cards {
+	    text-align: center;
+	    margin: 15px 0px;
+	}
+
+	.mk-delivery-services-row {
+	    margin-top: 35px;
+	    margin-bottom: 0px;
+	}
+
+	.mk-delivery-services-row .mk-delivery-tabs .nav>li>a {
+		padding: 10px 1px;
+	}
+
+}
+
+
